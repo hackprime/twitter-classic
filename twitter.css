@@ -1,0 +1,36 @@
+.dashboard { float: right !important; }
+.content-main { float: left !important; }
+
+.wrapper-profile .dashboard { position: absolute; right: 16px; }
+.wrapper-profile .profile-card.profile-header { float: left; }
+
+.stream .username, .wtf-module .username {
+    margin-right: 5px;
+    float: left;
+}
+.stream .username *, .wtf-module .username * {
+    color: #333333 !important;
+    font-weight: bold !important;
+    font-size: 14px;
+}
+.wtf-module .username * { font-size: 14px; }
+.stream .fullname, .wtf-module .fullname {
+    color: #999999 !important;
+    font-weight: normal !important;
+    font-size: 12px;
+}
+
+.list-link { padding-left: 30px !important; }
+.list-link .chev-right {
+    left: 10px; 
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

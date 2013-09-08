@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Classic",
+    "version": "1.0",
+
+    "description": "Turns twitter web interface into classic one with sidebar on right side of screen and @username goes before fullname.",
+    "developer": {"name": "hackprime"},
+
+    "icons": {
+        "128": "icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://twitter.com/*"],
+        "css": ["twitter.css"]
+    }],
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }    
+}
