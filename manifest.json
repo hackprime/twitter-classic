@@ -3,20 +3,15 @@
     "name": "Twitter Classic",
     "version": "1.0",
 
-    "description": "Turns twitter web interface into classic one with sidebar on right side of screen and @username goes before fullname.",
-    "developer": {"name": "hackprime"},
-
+    "description": "Brings back some old twitter interface features (sidebar on the right side of the screen, @username goes before the fullname).",
+    
     "icons": {
-        "128": "icon128.png"
+        "128": "icon128.png",
+        "64": "icon64.png",
+        "48": "icon48.png"
     },
     "content_scripts": [{
         "matches": ["https://twitter.com/*"],
         "css": ["twitter.css"]
-    }],
-    "permissions": [
-        "tabs"
-    ],
-    "background": {
-        "scripts": ["background.js"]
-    }    
+    }]
 }
