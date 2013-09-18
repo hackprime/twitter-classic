@@ -1,10 +1,10 @@
-Twitter Classic
+Twitter Classic Extension
 
-This is browser extension that turns web interface of twitter.com into classic one with:
-* sidebar on right side of screen;
-* @username goes before fullname.
+Twitter Classic brings back the old view to the Twitter (the one that was before January 2012):
+- sidebar moved to the right side of the screen.
+- @username goes before the real name.
 
-Tested in Opera 16.
+Tested in Opera 16 and Google Chrome 29.
 
 TODO list:
-* make the Firefox and Google Chrome versions.
+- Adapt it for Firefox and Opera 12 (Linux).
