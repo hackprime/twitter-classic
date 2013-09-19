@@ -20,6 +20,8 @@
     font-size: 12px;
 }
 
+.conversation-module .avatar { position: static !important; }
+
 .list-link { padding-left: 30px !important; }
 .list-link .chev-right {
     left: 10px; 
