@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Twitter Classic",
-    "version": "1.0",
+    "version": "1.0.1",
 
     "description": "Brings back some old twitter interface features (sidebar on the right side of the screen, @username goes before the fullname).",
     
